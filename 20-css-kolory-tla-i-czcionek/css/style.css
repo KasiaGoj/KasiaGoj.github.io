@@ -1,0 +1,46 @@
+/*  . Następnie nadaj kolor tła dla całej strony oraz różne kolory tła każdego punktu wymienionego powyżej - użyj dowolnych kolorów.
+4. Każdemu punktowi na liście nadaj inny kolor tekstu - użyj dowolnych kolorów. */
+
+body    {
+    background-color: lightgrey;
+}
+
+h1  {
+    background-color: orchid;
+}
+
+header + p  {
+    background-color: plum;
+}
+
+h2  {
+    background-color: #009688;
+}
+
+h2 + p  {
+    background-color: salmon;
+}
+
+ol  {
+    background-color: white;
+}
+
+.one    {
+    color: thistle;
+}
+
+.two    {
+    color: teal;
+}
+
+.three  {
+    color: yellowgreen;
+}
+
+.four   {
+    color: dimgray;
+}
+
+.five   {
+    color: navy;
+}
