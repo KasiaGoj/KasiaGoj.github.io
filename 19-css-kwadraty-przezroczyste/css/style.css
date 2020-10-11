@@ -1,0 +1,25 @@
+/* W tle ustaw kolor - #f5f5dd
+4. Każdemu divowi nadaj czarny kolor tła - aby uzyskać przezroczystość koloru do jego definicji użyć funkcji rgba() */
+
+body    {
+    background-color: #f5f5dd;
+}
+
+div {
+    background-color: black;
+    height: 10em;
+    width: 10em;
+    margin-left: 8em;
+}
+
+#div-2    {
+    opacity: 0.8;
+}
+
+#div-3  {
+    opacity: 0.5;
+}
+
+#div-4  {
+    opacity: 0.2;
+}
