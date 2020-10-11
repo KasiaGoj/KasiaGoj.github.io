@@ -1,0 +1,16 @@
+/* Nadepnie trzem wybranym paragrafom zmień kolor tła na niebieski - możesz je wyróżnić za pomocą tej samej wartości atrybutu class
+5. Do innych dwóch dodaj przezroczystość (właściwość opacity)*/
+
+p   {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+.blue   {
+    background-color: blue;
+}
+
+.transparent    {
+    opacity: 0.5;
+}
