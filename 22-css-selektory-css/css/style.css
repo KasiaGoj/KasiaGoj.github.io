@@ -1,0 +1,14 @@
+/* Nadaj dowolny kolor tekstu dla obu paragrafów, dla tytułu i nagłówków dodaj dowolny kolor tła.
+3. Następnie zmień kolor czcionki dla nagłówka h3, który znajduje się bezpośrednio po h1. */
+
+p   {
+    color: teal;
+}   
+
+h1 , h3     {
+    background-color: lightgray;
+}
+
+h1 + h3     {
+    color: tomato;
+}
