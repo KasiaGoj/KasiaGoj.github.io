@@ -1,12 +1,18 @@
 /* - Wykorzystaj właściwości width, height oraz background-color.
 - Kody kolorów to: pomarańczowy - #fea500, szary - #808080*/
 
+body    {
+    background-color: #808080;
+}
+
 h1  {
-    background-color: #fea500;
+    color: white;
+    margin-bottom: 1em;
     width: fit-content;
 }
 
 div {
-    background-color: #808080;
-    height: 3em;
+    background-color: #fea500;
+    height: 5em;
+    width: 5em;
 }
